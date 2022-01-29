@@ -7,7 +7,7 @@ public class EscapingDungeon {
         int[] swordHeuristic = {3,3,3,0};
         int[] keyHeuristic = {3,0,3,3};
         int[] maskHeuristic = {3,3,0,3};
-        int[] totalCost = {2,2,2,2}; // initially, total cost equals the fixed cost.
+        int[] totalCost = {1,2,2,2}; // initially, total cost equals the fixed cost.
 
         Scanner sc = new Scanner(System.in);
 
